@@ -1,0 +1,288 @@
+/**
+ *
+ */
+
+.chimpbridge-post-status-publish .html-active .switch-html {
+	background: white;
+}
+
+.chimpbridge-post-status-publish #postdivrich,
+.chimpbridge-post-status-publish a.edit-post-status,
+.chimpbridge-post-status-publish input#publish,
+.chimpbridge-post-status-publish #wp-content-editor-tools,
+.chimpbridge-post-status-publish .quicktags-toolbar {
+	display: none !important;
+}
+
+/**
+ * chimpbridge_save meta box
+ */
+
+#chimpbridge_save .inside {
+	padding: 10px;
+	margin: 0;
+}
+
+#chimpbridge_save #chimpbridge_test_emails {
+    width: 100%;
+}
+
+#chimpbridge_save #chimpbridge_email_test_submit {
+    margin-top: 0.50em;
+    width: 100%;
+    text-align: center;
+}
+
+#chimpbridge-save-action {
+	float: left;
+	text-align: left;
+	min-width: 120px;
+}
+
+#chimpbridge-preview-action {
+	float: right;
+}
+
+
+/**
+ * submitdiv
+ */
+
+div.misc-pub-section.misc-pub-curtime, div.misc-pub-section#visibility {
+	display: none;
+}
+
+#chimpbridge-verify-wrapper {
+	background: #f5f5f5;
+}
+
+#chimpbridge-verify-wrapper.chimpbridge-hidden {
+	overflow: hidden;
+	height: 0;
+}
+
+#chimpbridge-verify {
+	padding: 8px 10px 4px 12px;
+	border-top: 1px solid #DDD;
+	font-size: 13px;
+}
+
+#major-publishing-actions.chimpbridge-publishing-actions {
+	border: 0;
+}
+
+.chimpbridge-verify-title {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.chimpbridge-verify-text {
+	margin: 8px 0 0;
+	line-height: 1.4;
+}
+
+.chimpbridge-verify-details {
+	font-size: 16px;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+
+/**
+ * chimpbridge_reference meta box
+ */
+
+#chimpbridge_reference dt {
+	margin: 10px 0 5px;
+}
+
+#chimpbridge_reference dt > span {
+	font-weight: bold;
+	background: #EEE;
+	border-radius: 3px;
+	padding: 1px 5px 4px;
+	cursor: pointer;
+}
+
+
+/**
+ * Campaign Preview
+ */
+
+#chimpbridge_preview {
+	margin-top: 1em;
+}
+
+#chimpbridge_preview .handlediv, #chimpbridge_preview .hndle {
+	display: none;
+}
+
+#chimpbridge_preview .inside {
+	padding: 0 1.5em;
+	margin: 0;
+}
+
+#chimpbridge-preview-email {
+	font: 13px/normal arial, sans-serif;
+	color: #222;
+	padding: 1.5em 0 1.5em;
+}
+
+.chimpbridge-preview-subject {
+	font: 18px/normal arial, sans-serif !important;
+	margin: 0 0 6px !important;
+	padding: 0 0 9px 8px !important;
+	border-bottom: 1px solid #cfcfcf;
+}
+
+.chimpbridge-preview-meta {
+	position: relative;
+	padding: 4px 0 0 35px;
+}
+
+.chimpbridge-preview-meta .avatar {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	width: 24px;
+	height: 24px;
+}
+
+.chimpbridge-preview-meta-fromemail {
+	color: #555;
+}
+
+.chimpbridge-preview-meta-toname {
+	display: block;
+	color: #777;
+	margin-top: 5px;
+}
+
+.chimpbridge-preview-body {
+	margin: -2px 0 0;
+	padding-left: 35px;
+}
+
+#chimpbridge-preview-email p {
+	line-height: normal;
+	padding: 0 !important;
+}
+
+
+/**
+ * Options metabox
+ * Tabs lovingly borrowed from Custom Field Suite 2.3.1
+ * https://github.com/mgibbs189/custom-field-suite/blob/master/assets/css/input.css
+ */
+
+#chimpbridge_options.postbox h3.hndle {
+	background: #F5F5F5;
+	border-bottom: 0;
+}
+
+#chimpbridge_options.postbox.closed h3.hndle {
+	background: #FFF;
+}
+
+#chimpbridge_options.postbox .inside {
+	padding: 0;
+	margin: 0;
+}
+
+.chimpbridge-tabs {
+    display: block;
+    border-bottom: 1px solid #CCC;
+    margin: 0;
+	padding: 3px 12px 0;
+	background: #F5F5F5;
+}
+
+.chimpbridge-tab {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 5px;
+    margin-bottom: -1px;
+    border: 1px solid #DADADA;
+	border-bottom: #CCC;
+    background-color: #F0F0F0;
+    cursor: pointer;
+	text-shadow: 0 1px 0 #FFF;
+	color: #666;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.chimpbridge-tab.active {
+    background-color: #fff;
+	border: 1px solid #CCC;
+    border-bottom: 1px solid #fff;
+	text-shadow: none;
+	color: #000;
+}
+
+.chimpbridge-tab-content {
+    display: none;
+}
+
+.chimpbridge-tab-content.active {
+    display: block;
+	padding: 12px;
+}
+
+
+/**
+ *
+ */
+
+.chimpbridge-coming-soon {
+	text-align: center;
+	margin: 0;
+	padding: 2em 0 2.1em;
+	font-size: 1.5em;
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.chimpbridge-read-only {
+	position: relative;
+	opacity: 0.5;
+}
+
+.chimpbridge-read-only:after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	cursor: not-allowed;
+}
+
+.chimpbridge-tab-content .form-table {
+	margin: 0;
+}
+
+.chimpbridge-tab-content .form-table th {
+	width: 175px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.chimpbridge-tab-content .form-table td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.button.chimpbridge-refresh {
+	vertical-align: middle;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.chimpbridge-refresh .dashicons {
+	padding: 0 6px;
+	line-height: 26px;
+}
